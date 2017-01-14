@@ -1,14 +1,14 @@
 {
   "name": "ubik-neon-syntax",
   "theme": "syntax",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "80's Retrofuturism, cyberpunky, neon lights, bright colors and great code readability all in one syntax featuring also language-specific higlightingp!",
   "keywords": [
     "syntax",
     "theme",
     "python",
     "jinja",
-	"neon"
+    "neon"
   ],
   "repository": "https://github.com/mr-ubik/atom-ubik-neon-syntax",
   "license": "MIT",
