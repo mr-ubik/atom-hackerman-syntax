@@ -1,0 +1,17 @@
+{
+  "name": "ubik-neon-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "Dark syntax theme inspired by vim's gotham colorscheme, extended to better highlight code, with a focus on Python and Jinja2.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "python",
+    "jinja"
+  ],
+  "repository": "https://github.com/mr-ubik/atom-ubik-neon-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

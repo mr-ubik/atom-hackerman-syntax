@@ -1,0 +1,41 @@
+@import "colors";
+
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+// General colors
+@syntax-text-color: @ubik-syntax;
+@syntax-cursor-color: @cyan;
+@syntax-selection-color: @ubik6;
+@syntax-background-color: @very-dark-gray;
+@syntax-cursor-line: @ubik4;
+
+// Guide colors
+@syntax-wrap-guide-color: @light-gray;
+@syntax-indent-guide-color: @light-gray;
+@syntax-invisible-character-color: @gray;
+
+// For find and replace markers
+@syntax-result-marker-color: @light-gray;
+@syntax-result-marker-color-selected: white;
+
+// Gutter colors
+@syntax-gutter-text-color: @ubik0;
+@syntax-gutter-text-color-selected: @ubik3;
+@syntax-gutter-background-color: @very-dark-gray;
+@syntax-gutter-background-color-selected: @ubik6;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @cyan;
+@syntax-color-added: @green;
+@syntax-color-modified: @cyan;
+@syntax-color-removed: @orange;
+
+// Ubik Specific changes:
+@ubik-syntax: @ubik0;
+@ubik-syntax-punctuaction: @base6;
+@ubik-yellow: @ubik2;
+@syntax-variable: @ubik5;
+@syntax-function: @ubik2;
+@syntax-string: @ubik1;
+@syntax-keyword: @ubik3;
