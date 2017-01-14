@@ -1,0 +1,25 @@
+.syntax--source.syntax--python {
+    .syntax--entity {
+        &.syntax--name.syntax--function {
+            color: @syntax-color-function;
+
+            &.syntax--decorator {
+                color: @syntax-color-decorator;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .syntax--meta.syntax--function-call {
+        color: @syntax-text-color;
+    }
+
+    .syntax--variable {
+        &.syntax--parameter {
+            &.syntax--function {
+                color: @blue
+            }
+        }
+    }
+
+}

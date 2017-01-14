@@ -7,81 +7,6 @@
 
 @import "syntax-variables";
 
-atom-text-editor,atom-text-editor  {
-    background-color: @syntax-background-color;
-    color: @syntax-text-color;
-
-    .wrap-guide {
-        background-color: @syntax-wrap-guide-color;
-    }
-
-    .indent-guide {
-        color: @syntax-indent-guide-color;
-    }
-
-    .invisible-character {
-        color: @syntax-invisible-character-color;
-    }
-
-    .cursor-line {
-        background-color: @syntax-cursor-line;
-        // border-bottom: 1px solid @ubik5
-    }
-
-    .gutter {
-        background-color: @syntax-gutter-background-color;
-        color: @syntax-gutter-text-color;
-
-        .line-number {
-            &.cursor-line {
-                background-color: @syntax-gutter-background-color-selected;
-                color: @syntax-gutter-text-color-selected;
-            }
-
-            &.cursor-line-no-selection {
-                background-color: @syntax-cursor-line;
-                color: @syntax-gutter-text-color-selected;
-            }
-        }
-    }
-
-    // .gutter .line-number.foldable {
-    //   background-color: @light-gray;
-    //   color: @syntax-gutter-text-color-selected;
-    // }
-
-    .gutter .line-number.folded,
-    .gutter .line-number:after,
-    .fold-marker:after {
-        color: @syntax-text-color;
-        background-color: @syntax-gutter-text-color-selected,
-    }
-
-    .invisible {
-        color: @syntax-text-color;
-    }
-
-    .cursor {
-        color: @syntax-cursor-color;
-    }
-
-    .selection .region {
-        background-color: @syntax-selection-color;
-    }
-}
-
-atom-text-editor .search-results .syntax--marker .region,
-atom-text-editor .search-results .syntax--marker .region
-{
-    background-color: transparent;
-    border: 1px solid @syntax-result-marker-color;
-}
-
-atom-text-editor .search-results .syntax--marker.current-result .region,
-atom-text-editor .search-results .syntax--marker.current-result .region {
-    border: 1px solid @syntax-result-marker-color-selected;
-}
-
 .syntax--comment {
     color: @light-gray;
 }
@@ -335,9 +260,4 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
     &.syntax--heading {
         color: @green;
     }
-}
-
-atom-text-editor[mini] .scroll-view,
-atom-text-editor .scroll-view {
-    padding-left: 1 px;
 }
