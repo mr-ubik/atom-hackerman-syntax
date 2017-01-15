@@ -1,13 +1,15 @@
 {
   "name": "ubik-neon-syntax",
+  "author": "Michele 'Ubik' De Simoni",
   "theme": "syntax",
   "version": "1.1.0",
-  "description": "80's Retrofuturism, cyberpunky, neon lights, bright colors and great code readability all in one syntax featuring also language-specific higlightingp!",
+  "description": "80's Retrofuturism, cyberpunky, neon lights, bright colors and great code readability all in one syntax featuring also language-specific higlighting!",
   "keywords": [
     "syntax",
     "theme",
     "python",
     "jinja",
+    "retro",
     "neon"
   ],
   "repository": "https://github.com/mr-ubik/atom-ubik-neon-syntax",
