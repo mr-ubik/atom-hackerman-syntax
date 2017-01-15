@@ -1,11 +1,11 @@
-![Ubik Neon Syntax Logo](https://github.com/mr-ubik/atom-ubik-neon-syntax/blob/master/images/logo.jpg)
+![Ubik Neon Syntax Logo](https://cloud.githubusercontent.com/assets/16547060/21964577/abb5803e-db4e-11e6-8f42-3e6f27f7e33b.jpg)
 
 Inspired by the retrofuturist aestethics of the 80s, Neuromancer and neon lights.
 Ubik Neon has a dark background and the syntax has bright colors in order to achieve maximum readability.
 I strongly recommend leaving the dark background unchanged, coupling it with a dark UI-theme.
 (I use ```atom-material-ui``` with pink accent and a black primary)
 
-![Ubik Neon Syntax Screenshot](https://github.com/mr-ubik/atom-ubik-neon-syntax/blob/master/images/screenshot.png)
+![Ubik Neon Syntax Screenshot](https://cloud.githubusercontent.com/assets/16547060/21964576/abb2060c-db4e-11e6-9fc0-1ea34f0e076b.png)
 
 
 ## Special languages support
