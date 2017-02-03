@@ -1,3 +1,6 @@
+# Become the HACKERMAN!
+![Hackerman, Kung Fury](https://cloud.githubusercontent.com/assets/16547060/22607733/6d0c609a-ea59-11e6-9cc8-2c15ff9db56c.jpg)
+
 ![Ubik Neon Syntax Logo](https://cloud.githubusercontent.com/assets/16547060/21964577/abb5803e-db4e-11e6-8f42-3e6f27f7e33b.jpg)
 
 Inspired by the retrofuturist aestethics of the 80s, Neuromancer and neon lights.
