@@ -7,6 +7,8 @@
   "keywords": [
     "syntax",
     "theme",
+	"restructuredtext",
+	"markdown",
     "python",
     "jinja",
     "retro",
