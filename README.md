@@ -32,7 +32,3 @@ Happy Coding!
 :palm_tree: __Ubik__ :palm_tree:
 
 __PS:__ if you like what you see check my [Spyder Gotham syntax theme](https://github.com/mr-ubik/spyder-ubik-syntax) and my [Atom Gotham Syntax](https://atom.io/themes/ubik-gotham-syntax).
-
-
-
-aGCAGCAG
