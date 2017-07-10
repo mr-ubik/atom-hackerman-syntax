@@ -14,7 +14,7 @@
     "retro",
     "neon"
   ],
-  "repository": "https://github.com/mr-ubik/atom-ubik-neon-syntax",
+  "repository": "https://github.com/mr-ubik/atom-hackerman-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.13.0 <2.0.0"
