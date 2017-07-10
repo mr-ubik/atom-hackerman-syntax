@@ -1,8 +1,6 @@
 # Become the HACKERMAN!
 ![Hackerman, Kung Fury](https://cloud.githubusercontent.com/assets/16547060/22607733/6d0c609a-ea59-11e6-9cc8-2c15ff9db56c.jpg)
 
-![Ubik Neon Syntax Logo](https://cloud.githubusercontent.com/assets/16547060/21964577/abb5803e-db4e-11e6-8f42-3e6f27f7e33b.jpg)
-
 Inspired by the retrofuturist aestethics of the 80s, Neuromancer and neon lights.
 Ubik Neon has a dark background and the syntax has bright colors in order to achieve maximum readability.
 I strongly recommend leaving the dark background unchanged, coupling it with a dark UI-theme.
@@ -34,7 +32,3 @@ Happy Coding!
 :palm_tree: __Ubik__ :palm_tree:
 
 __PS:__ if you like what you see check my [Spyder Gotham syntax theme](https://github.com/mr-ubik/spyder-ubik-syntax) and my [Atom Gotham Syntax](https://atom.io/themes/ubik-gotham-syntax).
-
-
-
-aGCAGCAG
