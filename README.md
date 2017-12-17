@@ -41,9 +41,9 @@ If you want a particular syntax for a language either open an issue or fork/PR a
 
 ## Installation
 
-> From the command line: `apm install hackerman-syntax`
+> From the command line: `apm install ubik-hackerman-syntax`
 
-> From Atom, go to __Settings__ --> __Install__ --> __Themes__ --> type in __hackerman-syntax__
+> From Atom, go to __Settings__ --> __Install__ --> __Themes__ --> type in __ubik-hackerman-syntax__
 
 If you have any suggestions, please don't hesitate to let me know.
 
