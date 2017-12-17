@@ -25,7 +25,7 @@ atom-text-editor,atom-text-editor  {
 
     .cursor-line {
         background-color: @syntax-cursor-line;
-        // border-bottom: 1px solid @ubik5
+        // border-bottom: 1px solid @violet
     }
 
     .gutter {
@@ -93,7 +93,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
         color: @syntax-color-keyword;
 
         &.syntax--import {
-            color: @red;
+            color: @syntax-color-import;
         }
     }
 
@@ -142,7 +142,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
     }
 
     &.syntax--parameter.syntax--function {
-        color: @base4;
+        color: @syntax-color-function-parameter;
     }
 }
 
@@ -246,8 +246,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
     }
 
     &.syntax--name.syntax--tag {
-        color: @red;
-        text-decoration: underline;
+        color: @syntax-color-tag;
     }
 
     &.syntax--other.syntax--attribute-name {

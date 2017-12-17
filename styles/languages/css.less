@@ -1,0 +1,58 @@
+.syntax--source.syntax--css {
+    .syntax--curly {
+        &.syntax--bracket {
+
+            &.syntax--begin {
+                &.syntax--property-list {
+                    &.syntax--section {
+                        &.syntax--punctuation {
+                            color: @syntax-color-punctuaction;
+                        }
+                    }
+                }
+            }
+
+            &.syntax--end {
+                &.syntax--property-list {
+                    &.syntax--section {
+                        &.syntax--punctuation {
+                            color: @syntax-color-punctuaction;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .syntax--property-name {
+        &.syntax--type {
+            &.syntax--support {
+                color: @syntax-color-property;
+            }
+        }
+    }
+
+    .syntax--entity {
+        &.syntax--definition {
+            &.syntax--punctuation {
+                color: @syntax-color-punctuaction;
+            }
+        }
+    }
+
+    .syntax--attribute-name {
+        &.syntax--other {
+            &.syntax--entity {
+                color: @syntax-text-color;
+            }
+        }
+    }
+
+    .syntax--rule {
+        &.syntax--terminator {
+            &.syntax--punctuation {
+                color: @syntax-color-punctuaction;
+            }
+        }
+    }
+}

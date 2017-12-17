@@ -1,15 +1,12 @@
-/**
-* @Author: ubik
-* @Date:   2016-12-31T04:21:45+01:00
-* @Last modified by:   ubik
-* @Last modified time: 2017-01-04T02:08:00+01:00
-*/
-
 @import "syntax-variables";
+
+// --------------------
 
 .syntax--comment {
     color: @light-gray;
 }
+
+// --------------------
 
 .syntax--keyword {
     color: @syntax-color-keyword;
@@ -18,7 +15,7 @@
         color: @syntax-color-keyword;
 
         &.syntax--import {
-            color: @red;
+            color: @syntax-color-import;
         }
     }
 
@@ -35,9 +32,13 @@
     }
 }
 
+// --------------------
+
 .syntax--storage {
     color: @syntax-color-keyword;
 }
+
+// --------------------
 
 .syntax--constant {
     color: @orange;
@@ -59,6 +60,8 @@
     }
 }
 
+// --------------------
+
 .syntax--variable {
     color: @syntax-color-variable;
 
@@ -67,7 +70,7 @@
     }
 
     &.syntax--parameter.syntax--function {
-        color: @base4;
+        color: @syntax-color-function-parameter;
     }
 }
 
@@ -75,6 +78,8 @@
     background-color: @red;
     color: @syntax-background-color;
 }
+
+// --------------------
 
 .syntax--string {
     color: @syntax-text-color;
@@ -91,6 +96,8 @@
         color: @red;
     }
 }
+
+// --------------------
 
 .syntax--punctuation {
     &.syntax--definition {
@@ -134,6 +141,8 @@
     }
 }
 
+// --------------------
+
 .syntax--support {
     &.syntax--class {
         color: @light-orange;
@@ -158,6 +167,8 @@
     }
 }
 
+// --------------------
+
 .syntax--entity {
     &.syntax--name.syntax--function {
         color: @blue;
@@ -177,8 +188,7 @@
     }
 
     &.syntax--name.syntax--tag {
-        color: @red;
-        text-decoration: underline;
+        color: @syntax-color-tag;
     }
 
     &.syntax--other.syntax--attribute-name {
@@ -189,6 +199,8 @@
         }
     }
 }
+
+// --------------------
 
 .syntax--meta {
     &.syntax--class {
@@ -217,9 +229,13 @@
     }
 }
 
+// --------------------
+
 .syntax--none {
     color: @syntax-text-color;
 }
+
+// --------------------
 
 .syntax--markup {
     &.syntax--bold {
@@ -260,6 +276,8 @@
         color: @green;
     }
 }
+
+// --------------------
 
 .syntax--source.syntax--gfm .syntax--markup {
     -webkit-font-smoothing: auto;
